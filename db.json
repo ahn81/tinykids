@@ -1,0 +1,27 @@
+{
+  "products": [
+    {
+      "id": "prod1",
+      "name": "Örnek Ürün 1",
+      "price": 99.99,
+      "category_id": 1,
+      "images": ["/assets/products/product1.jpg"],
+      "discount": 10,
+      "sizes": [
+        {"name": "S", "stock": 10},
+        {"name": "M", "stock": 15}
+      ],
+      "colors": [
+        {"name": "Siyah", "code": "#000000", "stock": 10},
+        {"name": "Beyaz", "code": "#FFFFFF", "stock": 15}
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Elektronik"
+    }
+  ],
+  "users": []
+}
